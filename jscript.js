@@ -7,6 +7,8 @@ function createDiv (size) {
 }
 
 let size = 16;
-let btnQuery = document.querySelector("#size-input");
+createDiv(size);
 
-btnQuery.addEventListener("click", () => createDiv(size));
+/*let btnQuery = document.querySelector("#size-input");
+
+btnQuery.addEventListener("click", () => createDiv(size));*/
